@@ -1,5 +1,6 @@
 # import clear
 #HINT: You can call clear() to clear the output in the console.
+from art import logo
 bid_data = {}
 
 def larg(name):
@@ -16,7 +17,7 @@ while biding:
     name = input("What is your name?: ")
     bid_data[name] = float(input("What's your bid?: "))
 
-    will_bid = input("Yes to bid No to stop")
+    will_bid = input("Are there any other bidders? Type 'Yes or No")
     if will_bid.lower() == 'no':
         biding = False
     # clear()
