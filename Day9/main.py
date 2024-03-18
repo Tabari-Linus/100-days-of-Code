@@ -23,4 +23,4 @@ while biding:
     # clear()
     print("-----------------\n\n")
 
-print( f"The winner is {larg(bid_data)}: ${bid_data[larg(bid_data)]}")
+print( f"The winner is {larg(bid_data)} with a bid of : ${bid_data[larg(bid_data)]}")
