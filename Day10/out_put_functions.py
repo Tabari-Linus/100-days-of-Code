@@ -4,4 +4,4 @@ def format_name(f_name, l_name):
     l = l_name.title()
     return f"{f} {l}"
 
-print(format_name(f_name="tabari",l_name="linus"))
+print(format_name(f_name="tabari",l_name="linus")) 
